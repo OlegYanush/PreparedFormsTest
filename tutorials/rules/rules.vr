@@ -1,76 +1,97 @@
-[STEP 1]
+[VALIDATE_1]
 ###Rule
 exact-match
 
 ###Question
-Enter the result from the "Product Inventory Details" for Chai
+extract-match rule
+Answer-update35500000000000000: test 
+test
+Test
 
 ###Match
-18,000
-10 boxes x 20 bags
-[STEP 1 - END]
-[STEP 2]
+test
+Test
+
+[VALIDATE_1]
+
+
+
+[VALIDATE_2]
 ###Rule
 regex-substring
 
 ###Question
-Enter _setModel code block
+regex-sub-string111111:
+test1
+TEst2
+
 
 ###Match
-some multi-line code block
-[STEP 2 - END]
-[STEP 3]
+test1
+TEst2 
+
+[VALIDATE_2]
+
+[VALIDATE_3]
 ###Rule
 regex-begins-with
 
 ###Question
-Enter the price with the currency symbol for Chai
+regex-begins-with
+begins with
 
 ###Match
-�
-[STEP 3 - END]
-[STEP 10]
+ begins with 
+ 
+[VALIDATE_3]
+
+[VALIDATE_4]
 ###Rule
 regex-with-id-exact-match
 
 ###Question
-Enter URL to your application
+regex-with-id-exact-match
+Enter URL to your application //[id] will be changed to uid
+https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
+ 
 
 ###Match
 https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
-[STEP 10 - END]
-[STEP 10]
+[VALIDATE_4]
+
+[VALIDATE_5]
 ###Rule
 http-status-check
 
 ###Question
-Enter your application url
+with 404
+EX: https://github.com/SAPDocuments/How-To-Contribution/issues/new?title=Feedback%20on%20Tutorial:%20How%20to%20download%20and%20install%20the%20HANA%20Eclipse%20plugin
 
 ###Match
-200 or 201
-[STEP 10 - END]
-[STEP 10]
+404
+[VALIDATE_5]
+
+[VALIDATE_6]
 ###Rule
-response-regex-exact-match
+http-status-check
 
 ###Question
-Enter URL to your application
-Enter the output of your application
+with 301 или 401
+Ex: https://api-onedx.find400.sap.com/api/v1/search
 
 ###Match
-My Personal Library!
+301, 401 
 
-This is the response from my SQL:
+[VALIDATE_6]
 
-1 Learning SAP HANA Educational 2016-01-29 09:00:00:0000000
-[STEP 10 - END]
-[STEP 11]
+[VALIDATE_7]
 ###Rule
-restapi-status-check
+http-status-check
 
 ###Question
-Enter your application url
+with 200
+Ex: https://www.google.com
 
 ###Match
-200 or 201
-[STEP 11 - END]
+200
+[VALIDATE_7]
