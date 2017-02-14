@@ -3,32 +3,24 @@
 exact-match
 
 ###Question
-extract-match rule
-Answer-update35500000000000000: test 
-test
-Test
+autotest extract-match rule
 
 ###Match
-test
-Test
+Autotest extract-match
+autotest extract-match
 
 [VALIDATE_1]
-
-
 
 [VALIDATE_2]
 ###Rule
 regex-substring
 
 ###Question
-regex-sub-string111111:
-test1
-TEst2
-
+autotest regex-substring rule
 
 ###Match
-test1
-TEst2 
+Autotest regex-substring
+autotest regex-substring
 
 [VALIDATE_2]
 
@@ -37,11 +29,10 @@ TEst2
 regex-begins-with
 
 ###Question
-regex-begins-with
-begins with
+autotest regex-begins-with rule
 
 ###Match
- begins with 
+autotest regex-begins-with 
  
 [VALIDATE_3]
 
@@ -50,10 +41,7 @@ begins with
 regex-with-id-exact-match
 
 ###Question
-regex-with-id-exact-match
-Enter URL to your application //[id] will be changed to uid
-https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
- 
+autotest regex-with-id-exact-match
 
 ###Match
 https://codejam[id]trail.hanatrial.ondemand.com/codejam/mylibrary.xsjs
