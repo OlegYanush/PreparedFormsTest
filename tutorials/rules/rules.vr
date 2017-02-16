@@ -7,7 +7,6 @@ autotest extract-match rule
 
 ###Match
 Autotest extract-match
-autotest extract-match
 
 [VALIDATE_1]
 
@@ -20,7 +19,6 @@ autotest regex-substring rule
 
 ###Match
 Autotest regex-substring
-autotest regex-substring
 
 [VALIDATE_2]
 
