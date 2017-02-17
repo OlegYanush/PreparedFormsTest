@@ -3,17 +3,12 @@
 exact-match
 
 ###Question
-extract-match rule
-Answer-update35500000000000000: test 
-test
-Test
+autotest extract-match rule:
 
 ###Match
-test
-Test
+autotest extract-match rule
 
 [VALIDATE_1]
-
 
 
 [VALIDATE_2]
@@ -21,14 +16,13 @@ Test
 regex-substring
 
 ###Question
-regex-sub-string111111:
+autotest regex-sub-string:
 test1
 TEst2
 
 
 ###Match
-test1
-TEst2 
+autotest regex - substring
 
 [VALIDATE_2]
 
@@ -37,11 +31,10 @@ TEst2
 regex-begins-with
 
 ###Question
-regex-begins-with
-begins with
+autotest regex-begins-with:
 
 ###Match
- begins with 
+autotest regex-begins-with rule 
  
 [VALIDATE_3]
 
