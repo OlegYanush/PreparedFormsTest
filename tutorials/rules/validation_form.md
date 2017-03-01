@@ -46,3 +46,17 @@ qrcode: true
  [VALIDATE_7] 
  
 [ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 8](multi-choice)] 
+  
+ [VALIDATE_8] 
+ 
+[ACCORDION-END]
+
+
+[ACCORDION-BEGIN [STEP 9](single-choice)] 
+  
+ [VALIDATE_9] 
+ 
+[ACCORDION-END]
+
